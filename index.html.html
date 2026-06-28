@@ -1,0 +1,1178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Buy real estate in Saudi Arabia - luxury apartments, villas, and commercial properties for foreign investors. Real estate for sale in Riyadh, Jeddah, Madinah, Makkah. Premium property investment opportunities.">
+    <meta name="keywords" content="real estate Saudi Arabia, home for sale Saudi Arabia, property for sale Saudi, buy real estate Saudi, luxury apartments for sale, villas for sale Saudi Arabia, commercial property Saudi, real estate investment Saudi Arabia, Riyadh real estate, Jeddah property for sale, Madinah homes for sale, Makkah real estate, buy property Saudi, invest in real estate, foreign investment real estate Saudi, premium properties Saudi">
+    <meta name="author" content="Saudi Realty Investments">
+    <meta property="og:title" content="Buy Real Estate in Saudi Arabia | Property For Sale | Luxury Homes & Apartments">
+    <meta property="og:description" content="Premium real estate for sale in Saudi Arabia. Buy luxury apartments, villas, commercial properties. Real estate investment opportunities in Riyadh, Jeddah, Madinah, Makkah.">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <title>Real Estate Saudi Arabia | Buy Property For Sale | Luxury Homes, Apartments & Villas</title>
+    <link rel="canonical" href="https://saudirealty.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            color: #3a3a3a;
+            background: #fafaf8;
+            line-height: 1.7;
+        }
+        
+        [dir="rtl"] { direction: rtl; text-align: right; }
+        [dir="ltr"] { direction: ltr; text-align: left; }
+        
+        header {
+            background: white;
+            padding: 20px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.04);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            border-bottom: 1px solid #f0ebe3;
+        }
+        
+        .logo {
+            font-size: 22px;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            color: #2d5a4f;
+        }
+        
+        .lang-toggle {
+            background: #2d5a4f;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 12px;
+            transition: all 0.3s;
+            letter-spacing: 0.5px;
+        }
+        
+        .lang-toggle:hover {
+            background: #1a3a32;
+            transform: translateY(-1px);
+            box-shadow: 0 8px 24px rgba(45, 90, 79, 0.2);
+        }
+        
+        .whatsapp-button {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, #25D366 0%, #20BA5A 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            z-index: 99;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .whatsapp-button:hover {
+            transform: scale(1.12) translateY(-4px);
+            box-shadow: 0 12px 32px rgba(37, 211, 102, 0.5);
+        }
+        
+        .whatsapp-button svg {
+            width: 32px;
+            height: 32px;
+            fill: white;
+        }
+        
+        .whatsapp-tooltip {
+            position: absolute;
+            background: #2d5a4f;
+            color: white;
+            padding: 10px 16px;
+            border-radius: 6px;
+            font-size: 12px;
+            font-weight: 600;
+            white-space: nowrap;
+            bottom: 75px;
+            right: 0;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.3s;
+            letter-spacing: 0.3px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+        
+        .whatsapp-tooltip::after {
+            content: '';
+            position: absolute;
+            top: -6px;
+            right: 20px;
+            width: 0;
+            height: 0;
+            border-left: 6px solid transparent;
+            border-right: 6px solid transparent;
+            border-bottom: 6px solid #2d5a4f;
+        }
+        
+        .whatsapp-button:hover .whatsapp-tooltip {
+            opacity: 1;
+        }
+        
+        @media (max-width: 768px) {
+            .whatsapp-button {
+                bottom: 20px;
+                right: 20px;
+                width: 54px;
+                height: 54px;
+            }
+            
+            .whatsapp-button svg {
+                width: 28px;
+                height: 28px;
+            }
+        }
+        
+        .breadcrumb {
+            background: white;
+            padding: 12px 30px;
+            font-size: 12px;
+            color: #777;
+            border-bottom: 1px solid #f0ebe3;
+        }
+        
+        .breadcrumb a {
+            color: #2d5a4f;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        
+        .hero {
+            background: linear-gradient(135deg, #fafaf8 0%, #f5f1eb 50%, #efe8df 100%);
+            padding: 120px 30px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: -100px;
+            width: 500px;
+            height: 500px;
+            background: radial-gradient(circle, rgba(45, 90, 79, 0.05) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+        
+        .hero-content { position: relative; z-index: 2; }
+        
+        .hero h1 {
+            font-size: 56px;
+            margin-bottom: 20px;
+            font-weight: 700;
+            line-height: 1.15;
+            color: #2d5a4f;
+            letter-spacing: -1px;
+        }
+        
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 40px;
+            color: #666;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            font-weight: 300;
+            letter-spacing: 0.3px;
+        }
+        
+        .announcement {
+            display: inline-block;
+            background: white;
+            color: #2d5a4f;
+            padding: 12px 24px;
+            border-radius: 50px;
+            font-weight: 600;
+            margin-bottom: 40px;
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            border: 1.5px solid #d4af8a;
+            box-shadow: 0 4px 15px rgba(212, 175, 138, 0.15);
+        }
+        
+        .container {
+            max-width: 1300px;
+            margin: 0 auto;
+            padding: 0 30px;
+        }
+        
+        section {
+            padding: 100px 30px;
+        }
+        
+        section h2 {
+            font-size: 44px;
+            margin-bottom: 20px;
+            color: #2d5a4f;
+            font-weight: 700;
+            text-align: center;
+            letter-spacing: -1px;
+        }
+        
+        .section-subtitle {
+            text-align: center;
+            color: #777;
+            font-size: 16px;
+            margin-bottom: 60px;
+            font-weight: 300;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .cities-showcase {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+        
+        .city-showcase-card {
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+            transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            height: 500px;
+            cursor: pointer;
+            border: 1px solid #f0ebe3;
+            background: white;
+        }
+        
+        .city-showcase-card:hover {
+            transform: translateY(-20px);
+            box-shadow: 0 30px 60px rgba(45, 90, 79, 0.15);
+        }
+        
+        .city-img {
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            transition: transform 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .city-showcase-card:hover .city-img {
+            transform: scale(1.08);
+        }
+        
+        .city-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(180deg, rgba(0,0,0,0.15) 0%, rgba(45, 90, 79, 0.7) 100%);
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding: 40px;
+            color: white;
+        }
+        
+        .city-name {
+            font-size: 36px;
+            font-weight: 700;
+            margin-bottom: 16px;
+            letter-spacing: -0.5px;
+        }
+        
+        .city-stats {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+            margin-bottom: 20px;
+        }
+        
+        .stat {
+            background: rgba(255,255,255,0.12);
+            padding: 14px;
+            border-radius: 6px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+        
+        .stat-value {
+            font-size: 22px;
+            font-weight: 700;
+            display: block;
+            letter-spacing: -0.5px;
+        }
+        
+        .stat-label {
+            font-size: 10px;
+            opacity: 0.9;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-top: 4px;
+        }
+        
+        .city-desc {
+            font-size: 13px;
+            line-height: 1.7;
+            opacity: 0.97;
+            font-weight: 300;
+        }
+        
+        .properties-section {
+            background: white;
+        }
+        
+        .properties-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 36px;
+            margin-bottom: 40px;
+        }
+        
+        .property-type {
+            background: #fafaf8;
+            border-radius: 10px;
+            padding: 40px 32px;
+            text-align: center;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+            transition: all 0.4s;
+            border: 1px solid #f0ebe3;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .property-type::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, #2d5a4f, #d4af8a);
+            transform: scaleX(0);
+            transition: transform 0.4s;
+            transform-origin: left;
+        }
+        
+        .property-type:hover::before { transform: scaleX(1); }
+        
+        .property-type:hover {
+            transform: translateY(-12px);
+            box-shadow: 0 16px 40px rgba(45, 90, 79, 0.12);
+            background: white;
+        }
+        
+        .prop-icon {
+            font-size: 60px;
+            margin-bottom: 20px;
+        }
+        
+        .property-type h3 {
+            font-size: 19px;
+            margin-bottom: 14px;
+            font-weight: 700;
+            color: #2d5a4f;
+            letter-spacing: -0.3px;
+        }
+        
+        .property-type p {
+            color: #777;
+            font-size: 13px;
+            line-height: 1.8;
+            margin-bottom: 20px;
+            font-weight: 300;
+        }
+        
+        .price-badge {
+            background: linear-gradient(135deg, #2d5a4f 0%, #1a3a32 100%);
+            color: #d4af8a;
+            padding: 13px;
+            border-radius: 6px;
+            font-weight: 700;
+            font-size: 13px;
+            letter-spacing: 0.5px;
+        }
+        
+        .timeline-section {
+            background: linear-gradient(135deg, #2d5a4f 0%, #1a3a32 100%);
+            color: white;
+        }
+        
+        .timeline-section h2 {
+            color: white;
+        }
+        
+        .timeline-wrapper {
+            position: relative;
+            padding: 50px 0;
+        }
+        
+        .timeline-wrapper::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 1px;
+            height: 100%;
+            background: rgba(255,255,255,0.15);
+        }
+        
+        .timeline-step {
+            margin-bottom: 60px;
+            position: relative;
+        }
+        
+        .timeline-step:nth-child(odd) .step-content {
+            margin-right: 52%;
+            text-align: right;
+        }
+        
+        .timeline-step:nth-child(even) .step-content {
+            margin-left: 52%;
+            text-align: left;
+        }
+        
+        .step-dot {
+            position: absolute;
+            left: 50%;
+            top: 0;
+            transform: translateX(-50%);
+            width: 48px;
+            height: 48px;
+            background: #d4af8a;
+            color: #1a3a32;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 19px;
+            z-index: 2;
+            box-shadow: 0 4px 16px rgba(212, 175, 138, 0.3);
+            letter-spacing: -0.5px;
+        }
+        
+        .step-content {
+            background: rgba(255,255,255,0.06);
+            padding: 32px;
+            border-radius: 8px;
+            border: 1px solid rgba(255,255,255,0.12);
+            backdrop-filter: blur(10px);
+        }
+        
+        .step-content h3 {
+            font-size: 19px;
+            margin-bottom: 10px;
+            font-weight: 700;
+            color: #d4af8a;
+            letter-spacing: -0.3px;
+        }
+        
+        .step-content p {
+            font-size: 13px;
+            opacity: 0.92;
+            line-height: 1.7;
+            font-weight: 300;
+        }
+        
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 36px;
+            margin-bottom: 40px;
+        }
+        
+        .service-box {
+            background: white;
+            border-radius: 10px;
+            padding: 40px 34px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+            transition: all 0.4s;
+            border: 1px solid #f0ebe3;
+            text-align: center;
+        }
+        
+        .service-box:hover {
+            transform: translateY(-12px);
+            box-shadow: 0 16px 40px rgba(45, 90, 79, 0.12);
+        }
+        
+        .service-icon {
+            font-size: 52px;
+            margin-bottom: 18px;
+        }
+        
+        .service-box h3 {
+            font-size: 19px;
+            margin-bottom: 14px;
+            font-weight: 700;
+            color: #2d5a4f;
+            letter-spacing: -0.3px;
+        }
+        
+        .service-box p {
+            color: #777;
+            font-size: 13px;
+            line-height: 1.8;
+            margin-bottom: 20px;
+            font-weight: 300;
+        }
+        
+        .service-list {
+            text-align: left;
+            background: #fafaf8;
+            padding: 18px;
+            border-radius: 6px;
+            font-size: 13px;
+        }
+        
+        .service-list li {
+            list-style: none;
+            margin-bottom: 9px;
+            padding-left: 24px;
+            position: relative;
+            color: #555;
+            font-weight: 300;
+        }
+        
+        .service-list li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            font-weight: 700;
+            color: #2d5a4f;
+        }
+        
+        .faq-section {
+            background: #fafaf8;
+        }
+        
+        .faq-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 28px;
+        }
+        
+        .faq-item {
+            background: white;
+            border-radius: 10px;
+            padding: 28px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+            border: 1px solid #f0ebe3;
+        }
+        
+        .faq-item h4 {
+            font-size: 16px;
+            margin-bottom: 12px;
+            font-weight: 700;
+            color: #2d5a4f;
+            cursor: pointer;
+        }
+        
+        .faq-item p {
+            font-size: 13px;
+            color: #777;
+            line-height: 1.7;
+            font-weight: 300;
+        }
+        
+        .vision-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 32px;
+        }
+        
+        .vision-item {
+            background: white;
+            border-left: 3px solid #2d5a4f;
+            padding: 32px;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+            transition: all 0.4s;
+            border: 1px solid #f0ebe3;
+        }
+        
+        .vision-item:hover {
+            box-shadow: 0 12px 40px rgba(45, 90, 79, 0.12);
+            transform: translateX(8px);
+        }
+        
+        .vision-city {
+            color: #2d5a4f;
+            font-weight: 700;
+            font-size: 10px;
+            text-transform: uppercase;
+            margin-bottom: 12px;
+            letter-spacing: 1.2px;
+        }
+        
+        .vision-item h3 {
+            font-size: 18px;
+            margin-bottom: 12px;
+            font-weight: 700;
+            color: #1a3a32;
+            line-height: 1.4;
+            letter-spacing: -0.3px;
+        }
+        
+        .vision-item p {
+            color: #777;
+            font-size: 13px;
+            line-height: 1.7;
+            font-weight: 300;
+        }
+        
+        .vision-tag {
+            display: inline-block;
+            background: #f0ebe3;
+            color: #2d5a4f;
+            padding: 6px 14px;
+            border-radius: 4px;
+            font-size: 10px;
+            font-weight: 700;
+            margin-top: 14px;
+            letter-spacing: 0.5px;
+        }
+        
+        .cta-section {
+            background: linear-gradient(135deg, #2d5a4f 0%, #1a3a32 100%);
+            color: white;
+            text-align: center;
+        }
+        
+        .cta-section h2 {
+            color: white;
+        }
+        
+        .form-wrapper {
+            background: white;
+            padding: 50px;
+            border-radius: 10px;
+            box-shadow: 0 20px 60px rgba(45, 90, 79, 0.2);
+            max-width: 540px;
+            margin: 50px auto 0;
+            border: 1px solid #f0ebe3;
+        }
+        
+        .form-group {
+            margin-bottom: 24px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 10px;
+            color: #2d5a4f;
+            font-weight: 600;
+            font-size: 13px;
+            letter-spacing: 0.4px;
+            text-transform: uppercase;
+        }
+        
+        input, select, textarea {
+            width: 100%;
+            padding: 14px;
+            border: 1px solid #e8dfd5;
+            border-radius: 6px;
+            font-size: 14px;
+            font-family: inherit;
+            transition: all 0.3s;
+            background: #fafaf8;
+            font-weight: 300;
+        }
+        
+        input:focus, select:focus, textarea:focus {
+            outline: none;
+            border-color: #2d5a4f;
+            background: white;
+            box-shadow: 0 0 0 3px rgba(45, 90, 79, 0.08);
+        }
+        
+        textarea {
+            resize: vertical;
+            min-height: 100px;
+        }
+        
+        button {
+            width: 100%;
+            padding: 15px;
+            background: linear-gradient(135deg, #2d5a4f 0%, #1a3a32 100%);
+            color: #d4af8a;
+            border: none;
+            border-radius: 6px;
+            font-size: 15px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s;
+            letter-spacing: 0.5px;
+        }
+        
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 30px rgba(45, 90, 79, 0.3);
+        }
+        
+        .creds-box {
+            background: #f0ebe3;
+            padding: 32px;
+            border-radius: 8px;
+            text-align: center;
+            margin-top: 32px;
+            border: 1px solid #e8dfd5;
+        }
+        
+        .creds-box h3 {
+            color: #2d5a4f;
+            margin-bottom: 18px;
+            font-weight: 700;
+            font-size: 14px;
+            letter-spacing: 0.3px;
+        }
+        
+        .cred-badge {
+            display: inline-block;
+            background: white;
+            border: 1.5px solid #2d5a4f;
+            color: #2d5a4f;
+            padding: 10px 18px;
+            border-radius: 4px;
+            font-weight: 700;
+            font-size: 11px;
+            margin: 6px;
+            letter-spacing: 0.5px;
+        }
+        
+        footer {
+            background: #1a3a32;
+            color: #d4af8a;
+            text-align: center;
+            padding: 40px 30px;
+            font-size: 12px;
+            letter-spacing: 0.5px;
+        }
+        
+        .hidden { display: none; }
+        
+        .success-msg {
+            background: #e8f5e9;
+            color: #1b5e20;
+            padding: 16px;
+            border-radius: 6px;
+            margin-bottom: 20px;
+            text-align: center;
+            font-weight: 600;
+            border: 1px solid #c8e6c9;
+            font-size: 13px;
+        }
+        
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 38px; }
+            section h2 { font-size: 32px; margin-bottom: 40px; }
+            section { padding: 60px 20px; }
+            .container { padding: 0 20px; }
+            .timeline-wrapper::before { left: 18px; }
+            .step-dot { left: 18px; }
+            .timeline-step:nth-child(odd) .step-content,
+            .timeline-step:nth-child(even) .step-content {
+                margin-left: 60px;
+                margin-right: 0;
+                text-align: left;
+            }
+        }
+    </style>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "RealEstateAgent",
+        "name": "Saudi Realty Investments",
+        "description": "Buy real estate in Saudi Arabia. Premium property for sale - luxury apartments, villas, commercial properties. Real estate investment opportunities in Riyadh, Jeddah, Madinah, Makkah.",
+        "url": "https://saudirealty.com",
+        "telephone": "+966597559828",
+        "areaServed": ["Riyadh", "Jeddah", "Al-Madinah", "Makkah"],
+        "serviceArea": "Saudi Arabia",
+        "priceRange": "SAR 200K - 5M"
+    }
+    </script>
+</head>
+<body>
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/966597559828?text=Hi%2C%20I%27m%20interested%20in%20real%20estate%20investment%20in%20Saudi%20Arabia.%20Can%20you%20help%20me%20find%20properties%20for%20sale%3F" class="whatsapp-button" target="_blank" rel="noopener noreferrer" title="Chat with us on WhatsApp">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421-7.403h-.004c-1.725 0-3.348.474-4.773 1.372l-.531-.266-5.487 1.44 1.465-5.35-.352-.559A7.47 7.47 0 012.654 6.989c0-4.155 3.396-7.551 7.579-7.551 2.02 0 3.913.787 5.335 2.205 1.422 1.42 2.205 3.307 2.205 5.324 0 4.155-3.396 7.551-7.579 7.551z"/>
+        </svg>
+        <div class="whatsapp-tooltip" id="whatsapp-label">Chat on WhatsApp</div>
+    </a>
+
+    <div class="breadcrumb">
+        <a href="/">Home</a> > <a href="/">Real Estate Saudi Arabia</a> > <a href="/">Buy Property</a>
+    </div>
+
+    <header>
+        <div class="logo" id="logo">Saudi Realty</div>
+        <button class="lang-toggle" onclick="toggleLanguage()">عربي / English</button>
+    </header>
+
+    <div class="hero">
+        <div class="hero-content">
+            <div class="announcement" id="announcement">Exclusive Real Estate Opportunity 2024</div>
+            <h1 id="hero-title">Buy Real Estate in Saudi Arabia | Home For Sale | Premium Property Investment</h1>
+            <p id="hero-subtitle">Invest in premium real estate properties - luxury apartments, villas, and commercial spaces for sale in Riyadh, Jeddah, Madinah, and Makkah</p>
+        </div>
+    </div>
+
+    <section class="container">
+        <h2 id="cities-heading">Real Estate For Sale in Saudi Arabia Cities</h2>
+        <p class="section-subtitle">Find your perfect home for sale or investment property across Saudi Arabia's premier real estate markets</p>
+        <div class="cities-showcase" id="cities-grid"></div>
+    </section>
+
+    <section class="properties-section">
+        <div class="container">
+            <h2 id="props-heading">Types of Property For Sale in Saudi Arabia</h2>
+            <p class="section-subtitle">Explore various real estate options - from luxury apartments to commercial properties for sale</p>
+            <div class="properties-grid" id="props-grid"></div>
+        </div>
+    </section>
+
+    <section class="timeline-section">
+        <div class="container">
+            <h2 style="color: white;">How to Buy Real Estate in Saudi Arabia - Your Real Estate Investment Journey</h2>
+            <p class="section-subtitle" style="color: rgba(255,255,255,0.9);">Simple steps to purchase your dream home or investment property in Saudi Arabia</p>
+            <div class="timeline-wrapper" id="timeline-grid"></div>
+        </div>
+    </section>
+
+    <section class="container">
+        <h2 id="services-heading">Real Estate Services - Buy Property in Saudi Arabia</h2>
+        <p class="section-subtitle">Complete real estate solutions for buying homes, investment properties, and commercial real estate in Saudi Arabia</p>
+        <div class="services-grid" id="services-grid"></div>
+    </section>
+
+    <section class="faq-section">
+        <div class="container">
+            <h2>FAQ - Buying Real Estate in Saudi Arabia</h2>
+            <p class="section-subtitle">Frequently asked questions about real estate property for sale and foreign investment in Saudi Arabia</p>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h4>Can foreigners buy real estate in Saudi Arabia?</h4>
+                    <p>Yes! Saudi Arabia now allows foreign investors to buy property. Specific zones in Riyadh, Jeddah, Madinah, and Makkah are open for foreign real estate investment.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>What types of property for sale are available?</h4>
+                    <p>We offer luxury apartments, villas, commercial properties, and furnished homes for sale. All properties are located in premium real estate locations.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>How do I buy real estate in Saudi Arabia?</h4>
+                    <p>Our team guides you through the entire home buying process. From property selection to legal documentation, we handle real estate investment procedures.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>What's the best real estate investment property?</h4>
+                    <p>Investment returns vary by location. Riyadh and Jeddah offer strong returns. We help match your goals with the best property for sale in Saudi Arabia.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Can I rent my property after buying?</h4>
+                    <p>Yes! Many buyers purchase property for rental income. We offer property management services for homes and commercial real estate in Saudi Arabia.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>What's the cost of buying real estate in Saudi Arabia?</h4>
+                    <p>Real estate prices vary. Luxury apartments: SAR 500K-2M. Villas: SAR 1M-5M. Commercial property: SAR 300K-1.5M. Contact us for current property listings for sale.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section style="background: #fafaf8;">
+        <div class="container">
+            <h2 id="vision-heading">Vision 2030 Real Estate Projects & Development</h2>
+            <p class="section-subtitle">Major real estate development projects driving growth in Saudi Arabia's property market</p>
+            <div class="vision-grid" id="vision-grid"></div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <h2 id="cta-title">Start Buying Real Estate in Saudi Arabia Today</h2>
+            <p id="cta-subtitle" style="margin-bottom: 40px; color: rgba(255,255,255,0.9); font-size: 15px; font-weight: 300;">Expert guidance on luxury apartments, villas, and commercial properties for sale in Saudi Arabia</p>
+            
+            <div class="form-wrapper">
+                <form id="leadForm" onsubmit="handleSubmit(event)">
+                    <div id="success-msg" class="success-msg hidden">
+                        <span id="success-text"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="name" id="label-name">Full Name</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" id="label-email">Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone" id="label-phone">Phone</label>
+                        <input type="tel" id="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="city" id="label-city">Where do you want to buy real estate? Riyadh, Jeddah, Madinah, or Makkah</label>
+                        <select id="city" required>
+                            <option value="">Select Real Estate Location</option>
+                            <option value="riyadh">Riyadh - Property For Sale</option>
+                            <option value="jeddah">Jeddah - Real Estate Investment</option>
+                            <option value="madinah">Madinah - Home For Sale</option>
+                            <option value="makkah">Makkah - Buy Real Estate</option>
+                        </select>
+                    </div>
+                    <button type="submit" id="submit-btn">Get Real Estate Consultation - Browse Property For Sale Now</button>
+                </form>
+                <div class="creds-box">
+                    <h3 id="creds-title">Licensed & Verified Real Estate Agent in Saudi Arabia</h3>
+                    <div>
+                        <span class="cred-badge">✓ FAL Licensed</span>
+                        <span class="cred-badge">✓ Expert Real Estate Team</span>
+                        <span class="cred-badge">✓ Trusted Property Partner</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">&copy; 2024 Saudi Realty Investments. Buy Real Estate in Saudi Arabia. Home For Sale. Property Investment. All rights reserved.</footer>
+
+    <script>
+        const cityImages = {
+            riyadh: 'https://images.pexels.com/photos/3876365/pexels-photo-3876365.jpeg?w=800&h=600&fit=crop',
+            jeddah: 'https://images.pexels.com/photos/2507010/pexels-photo-2507010.jpeg?w=800&h=600&fit=crop',
+            madinah: 'https://images.pexels.com/photos/8126556/pexels-photo-8126556.jpeg?w=800&h=600&fit=crop',
+            makkah: 'https://images.pexels.com/photos/1173623/pexels-photo-1173623.jpeg?w=800&h=600&fit=crop'
+        };
+
+        const translations = {
+            en: {
+                logo: "Saudi Realty",
+                announcement: "Exclusive Real Estate Opportunity 2024",
+                'hero-title': "Buy Real Estate in Saudi Arabia | Home For Sale | Premium Property Investment",
+                'hero-subtitle': "Invest in premium real estate properties - luxury apartments, villas, and commercial spaces for sale in Riyadh, Jeddah, Madinah, and Makkah",
+                'cities-heading': "Real Estate For Sale in Saudi Arabia Cities",
+                'props-heading': "Types of Property For Sale in Saudi Arabia",
+                'services-heading': "Real Estate Services - Buy Property in Saudi Arabia",
+                'vision-heading': "Vision 2030 Real Estate Projects & Development",
+                'cta-title': "Start Buying Real Estate in Saudi Arabia Today",
+                'cta-subtitle': "Expert guidance on luxury apartments, villas, and commercial properties for sale",
+                'label-name': "Full Name",
+                'label-email': "Email",
+                'label-phone': "Phone",
+                'label-city': "Where do you want to buy real estate?",
+                'submit-btn': "Get Real Estate Consultation - Browse Property Now",
+                'creds-title': "Licensed & Verified Real Estate Agent",
+                'success-text': "Thank you! We'll contact you within 24 hours with real estate options.",
+                footer: "&copy; 2024 Saudi Realty. Buy Real Estate in Saudi Arabia.",
+                cities: {
+                    riyadh: { name: "Riyadh", growth: "7.5%", population: "10M+", desc: "Best real estate for sale - buy luxury apartments, villas, and investment property in Riyadh." },
+                    jeddah: { name: "Jeddah", growth: "5.5%", population: "4M+", desc: "Premier property for sale - invest in real estate with coastal advantages in Jeddah." },
+                    madinah: { name: "Al-Madinah", growth: "6%", population: "2M+", desc: "Holy city real estate - home for sale with strong investment returns in Madinah." },
+                    makkah: { name: "Makkah", growth: "6.5%", population: "2.5M+", desc: "Sacred city property - buy real estate with excellent rental yields in Makkah." }
+                },
+                properties: [
+                    { icon: "🏢", name: "Luxury Apartments For Sale", desc: "Premium apartment property for sale in Saudi Arabia", price: "SAR 500K - 2M" },
+                    { icon: "🏠", name: "Villas For Sale", desc: "Exclusive villa real estate for sale in gated communities", price: "SAR 1M - 5M" },
+                    { icon: "🏪", name: "Commercial Real Estate For Sale", desc: "Office and retail property for sale with investment potential", price: "SAR 300K - 1.5M" },
+                    { icon: "🛋️", name: "Furnished Homes For Sale", desc: "Ready-to-rent property for sale and investment", price: "SAR 200K - 500K" }
+                ],
+                timeline: [
+                    { step: "1", title: "Real Estate Consultation", desc: "Discuss property goals - buy apartments, villas, or invest" },
+                    { step: "2", title: "Browse Property For Sale", desc: "View exclusive real estate listings and homes for sale" },
+                    { step: "3", title: "Purchase Your Property", desc: "Complete real estate acquisition in Saudi Arabia" },
+                    { step: "4", title: "Prepare Your Home", desc: "Design and furnish your real estate property" },
+                    { step: "5", title: "Property Management", desc: "Professional management for your real estate investment" },
+                    { step: "6", title: "Earn Rental Income", desc: "Receive monthly returns from your real estate property" }
+                ],
+                services: [
+                    { icon: "🏠", title: "Buy Real Estate Property", desc: "Find and purchase homes for sale in Saudi Arabia", items: ["Location analysis for property", "Price negotiation for homes", "Legal documentation for real estate"] },
+                    { icon: "🎨", title: "Design Your Property", desc: "Create your dream real estate home space", items: ["Interior design for property", "Premium home furnishing", "Move-in ready property"] },
+                    { icon: "💼", title: "Real Estate Management", desc: "Professional property management services for real estate", items: ["Tenant screening for homes", "Property maintenance", "Rent collection for real estate"] },
+                    { icon: "✨", title: "Guaranteed Returns", desc: "Secure returns on real estate investment property", items: ["Fixed income from property", "Legal protection for real estate", "Passive returns on homes"] }
+                ],
+                vision: [
+                    { city: "Riyadh", project: "Royal Real Estate District - Buy Property Now", desc: "Major real estate development projects in Riyadh for property investment" },
+                    { city: "Jeddah", project: "Coastal Real Estate Projects - Homes For Sale", desc: "Waterfront property for sale and real estate investment in Jeddah" },
+                    { city: "Al-Madinah", project: "Holy City Property Development - Buy Real Estate", desc: "Real estate investment opportunities and homes for sale in Madinah" },
+                    { city: "Makkah", project: "Sacred City Real Estate - Premium Property For Sale", desc: "Commercial real estate and property for sale in Makkah with high returns" }
+                ]
+            },
+            ar: {
+                logo: "العقارات السعودية",
+                announcement: "فرصة عقارات حصرية 2024",
+                'hero-title': "اشتري عقارات في السعودية | منزل للبيع | استثمار عقاري مميز",
+                'hero-subtitle': "استثمر في عقارات مميزة - شقق فاخرة وفلل وعقارات تجارية للبيع في الرياض وجدة والمدينة ومكة",
+                'cities-heading': "عقارات للبيع في مدن السعودية",
+                'props-heading': "أنواع العقارات للبيع في السعودية",
+                'services-heading': "خدمات العقارات - اشتري عقاراً في السعودية",
+                'vision-heading': "مشاريع التطوير العقاري لرؤية 2030",
+                'cta-title': "ابدأ شراء العقارات في السعودية اليوم",
+                'cta-subtitle': "إرشادات خبراء حول الشقق الفاخرة والفلل والعقارات التجارية للبيع",
+                'label-name': "الاسم الكامل",
+                'label-email': "البريد الإلكتروني",
+                'label-phone': "رقم الهاتف",
+                'label-city': "أين تريد شراء عقاراً؟",
+                'submit-btn': "احصل على استشارة عقارية - استعرض العقارات الآن",
+                'creds-title': "وسيط عقارات مرخص وموثوق",
+                'success-text': "شكراً! سنتواصل معك خلال 24 ساعة مع خيارات عقارية.",
+                footer: "&copy; 2024 العقارات السعودية. اشتري عقارات في السعودية.",
+                cities: {
+                    riyadh: { name: "الرياض", growth: "7.5%", population: "10M+", desc: "أفضل عقارات للبيع - اشتري شقق فاخرة وفلل في الرياض" },
+                    jeddah: { name: "جدة", growth: "5.5%", population: "4M+", desc: "عقارات مميزة للبيع - استثمر في العقارات بمميزات ساحلية" },
+                    madinah: { name: "المدينة", growth: "6%", population: "2M+", desc: "عقارات المدينة المقدسة - منزل للبيع برؤية استثمارية قوية" },
+                    makkah: { name: "مكة", growth: "6.5%", population: "2.5M+", desc: "عقارات المدينة المقدسة - اشتري عقاراً بعائد إيجاري مرتفع" }
+                },
+                properties: [
+                    { icon: "🏢", name: "شقق فاخرة للبيع", desc: "عقارات شقق مميزة للبيع بالسعودية", price: "500K - 2M ريال" },
+                    { icon: "🏠", name: "فلل للبيع", desc: "عقار فيلا حصرية للبيع في مجمعات آمنة", price: "1M - 5M ريال" },
+                    { icon: "🏪", name: "عقارات تجارية للبيع", desc: "عقار مكتب ومحل تجاري بعائد استثماري", price: "300K - 1.5M ريال" },
+                    { icon: "🛋️", name: "منازل مفروشة للبيع", desc: "عقار جاهز للإيجار والاستثمار", price: "200K - 500K ريال" }
+                ],
+                timeline: [
+                    { step: "1", title: "استشارة عقارية", desc: "ناقش أهداف الاستثمار العقاري" },
+                    { step: "2", title: "استعرض عقارات للبيع", desc: "اطلع على قائمة العقارات الحصرية" },
+                    { step: "3", title: "اشتري عقاراً", desc: "أتمم عملية الاستحواذ العقاري" },
+                    { step: "4", title: "أعد منزلك", desc: "تصميم وتأثيث العقار" },
+                    { step: "5", title: "إدارة عقاراتك", desc: "إدارة احترافية للعقار" },
+                    { step: "6", title: "دخل شهري من العقار", desc: "احصل على عوائد شهرية من عقارك" }
+                ],
+                services: [
+                    { icon: "🏠", title: "اشتري عقاراً بالسعودية", desc: "ابحث واشتري منزلاً في السعودية", items: ["تحليل موقع العقار", "تفاوض على سعر العقار", "وثائق قانونية للعقار"] },
+                    { icon: "🎨", title: "صمم عقارك", desc: "أنشئ مساحتك العقارية المثالية", items: ["تصميم داخلي للعقار", "أثاث فاخر للمنزل", "عقار جاهز للإيجار"] },
+                    { icon: "💼", title: "إدارة العقارات", desc: "خدمات إدارة عقارات احترافية", items: ["فحص المستأجر للعقار", "صيانة العقار", "تحصيل إيجار العقار"] },
+                    { icon: "✨", title: "عوائد عقارية مضمونة", desc: "عوائد استثمار عقاري آمنة", items: ["دخل ثابت من العقار", "حماية قانونية للعقار", "عوائد سلبية من الاستثمار"] }
+                ],
+                vision: [
+                    { city: "الرياض", project: "المنطقة المالية الملكية - اشتري عقاراً", desc: "مشاريع عقارية كبرى بالرياض للاستثمار العقاري" },
+                    { city: "جدة", project: "مشاريع عقارات ساحلية - عقارات للبيع", desc: "عقار ساحلي للبيع واستثمار عقاري بجدة" },
+                    { city: "المدينة", project: "تطوير عقارات المدينة - اشتري عقاراً", desc: "فرص استثمار عقاري وعقارات للبيع بالمدينة" },
+                    { city: "مكة", project: "عقارات المدينة المقدسة - عقارات مميزة للبيع", desc: "عقار تجاري وعقارات للبيع بمكة برسوم عالية" }
+                ]
+            }
+        };
+
+        let lang = 'en';
+
+        function toggleLanguage() {
+            lang = lang === 'en' ? 'ar' : 'en';
+            updatePage();
+            document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
+            
+            // Update WhatsApp tooltip text
+            const tooltipLabel = document.getElementById('whatsapp-label');
+            if (lang === 'ar') {
+                tooltipLabel.textContent = 'تحدث معنا على واتساب';
+            } else {
+                tooltipLabel.textContent = 'Chat on WhatsApp';
+            }
+        }
+
+        function updatePage() {
+            const t = translations[lang];
+            
+            for (let key in t) {
+                if (!['cities', 'properties', 'timeline', 'services', 'vision'].includes(key)) {
+                    const el = document.getElementById(key);
+                    if (el) el.textContent = t[key];
+                }
+            }
+
+            const citiesHTML = Object.keys(t.cities).map(k => {
+                const c = t.cities[k];
+                return `<div class="city-showcase-card">
+                    <img class="city-img" src="${cityImages[k]}" alt="Real estate for sale in ${c.name} - Buy property" title="Buy real estate and homes for sale in ${c.name}" style="width:100%; height:100%; object-fit:cover;" onerror="this.style.backgroundColor='#e8dfd5';">
+                    <div class="city-overlay">
+                        <div class="city-name">${c.name}</div>
+                        <div class="city-stats">
+                            <div class="stat"><span class="stat-value">${c.growth}</span><span class="stat-label">Growth</span></div>
+                            <div class="stat"><span class="stat-value">${c.population}</span><span class="stat-label">Pop</span></div>
+                        </div>
+                        <div class="city-desc">${c.desc}</div>
+                    </div>
+                </div>`;
+            }).join('');
+            document.getElementById('cities-grid').innerHTML = citiesHTML;
+
+            const propsHTML = t.properties.map(p => `<div class="property-type">
+                <div class="prop-icon">${p.icon}</div>
+                <h3>${p.name}</h3>
+                <p>${p.desc}</p>
+                <div class="price-badge">${p.price}</div>
+            </div>`).join('');
+            document.getElementById('props-grid').innerHTML = propsHTML;
+
+            const timelineHTML = t.timeline.map(tl => `<div class="timeline-step">
+                <div class="step-dot">${tl.step}</div>
+                <div class="step-content">
+                    <h3>${tl.title}</h3>
+                    <p>${tl.desc}</p>
+                </div>
+            </div>`).join('');
+            document.getElementById('timeline-grid').innerHTML = timelineHTML;
+
+            const servicesHTML = t.services.map(s => `<div class="service-box">
+                <div class="service-icon">${s.icon}</div>
+                <h3>${s.title}</h3>
+                <p>${s.desc}</p>
+                <div class="service-list"><ul>${s.items.map(i => `<li>${i}</li>`).join('')}</ul></div>
+            </div>`).join('');
+            document.getElementById('services-grid').innerHTML = servicesHTML;
+
+            const visionHTML = t.vision.map(v => `<div class="vision-item">
+                <div class="vision-city">🌍 ${v.city}</div>
+                <h3>${v.project}</h3>
+                <p>${v.desc}</p>
+                <span class="vision-tag">Vision 2030</span>
+            </div>`).join('');
+            document.getElementById('vision-grid').innerHTML = visionHTML;
+        }
+
+        function handleSubmit(e) {
+            e.preventDefault();
+            const data = {
+                name: document.getElementById('name').value,
+                email: document.getElementById('email').value,
+                phone: document.getElementById('phone').value,
+                city: document.getElementById('city').value,
+                timestamp: new Date().toISOString()
+            };
+            const leads = JSON.parse(localStorage.getItem('leads') || '[]');
+            leads.push(data);
+            localStorage.setItem('leads', JSON.stringify(leads));
+            
+            const msg = document.getElementById('success-msg');
+            msg.classList.remove('hidden');
+            document.getElementById('leadForm').reset();
+            setTimeout(() => msg.classList.add('hidden'), 5000);
+            console.log('Real estate inquiry:', data);
+        }
+
+        document.documentElement.dir = 'ltr';
+        updatePage();
+    </script>
+</body>
+</html>
